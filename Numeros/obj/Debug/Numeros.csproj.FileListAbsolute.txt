@@ -1,0 +1,11 @@
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\bin\Debug\Numeros.exe.config
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\bin\Debug\Numeros.exe
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\bin\Debug\Numeros.pdb
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\obj\Debug\Numeros.csprojResolveAssemblyReference.cache
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\obj\Debug\Numeros.csproj.CoreCompileInputs.cache
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\obj\Debug\Numeros.exe
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\obj\Debug\Numeros.pdb
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\bin\Debug\Numeros.exe.manifest
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\bin\Debug\Numeros.application
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\obj\Debug\Numeros.exe.manifest
+C:\Users\daniel_jançanti\source\repos\Numeros\Numeros\obj\Debug\Numeros.application

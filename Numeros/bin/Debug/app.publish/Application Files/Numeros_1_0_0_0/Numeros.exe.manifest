@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Numeros.exe" version="1.0.0.0" publicKeyToken="7d9927a6455ed8d4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Numeros" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Numeros.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Numeros.exe" size="6128">
+      <assemblyIdentity name="Numeros" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R1q7ceuJM6oVsivmpF7qnJTspy/7t/lKxQFPpf07qjQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Numeros.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wDmrlTz6aNIp269ZO0+f+NuBph+l7PSF+/aeuhX4N/I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JNMOURA\daniel_jançanti" issuerKeyHash="592f7c417d49856c6593cbe461681b8b04693cdf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MFAh2N6Vzkb7MZmYnUQGESdksVWAlVldgrqrViJOAT0=</DigestValue></Reference></SignedInfo><SignatureValue>iS7rRIo1vdgWZXF0OivsFIGMQETnzKzURtRVIXz3pNNUjksLxz/sfheLTF6ziCFlE0iyR2n+1C/Aebitja1CBNOy8BlgjfXLMuu4DeLSqV5QWfIE95nEr0HHu7Xt7FpA0aw/GYPHbY3gwxCzRYylf9VNTLQlR4X3QmW0MqCUWv8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yJvRft/baJp8bsGj+yggX2MS5GDOq7SZnTHI/DgmVpOlJWoBjxNgiwEAGksmmwjSC7Aq20j++1Xs9w7Diyjb+Ve3RVJXdTtvXtjpcd2uzjQjiWPRt5d46eH6l0lgVaa8EXHQlbYTVbOLDoXNW9CMUrcIFm0thrAkgjCJg/LONt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d014e2256abba825d59958055b164271106449d989931fb46ce95ded8215030" Description="" Url=""><as:assemblyIdentity name="Numeros.exe" version="1.0.0.0" publicKeyToken="7d9927a6455ed8d4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JNMOURA\daniel_jançanti</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OGz/sQ+ZAyq3r0w6X6a7738TXFGtB/9ixGsON0QM+u4=</DigestValue></Reference></SignedInfo><SignatureValue>SQ48DT3nP/sBLr6ueQBybLgae2y4o5JkRLrnGeJ9rOiue1MR5s2kiy51tzHBkfJdgtznbqqzlqLJZ6OXbb+Wb6wXDdlERV07umsm2dQjZzSHVRG/fXJ5eQuXWO6hXi2ohvrkUWq6/zba//qrTVtr1o42BIX5JaB3+ABsk+6RaiI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yJvRft/baJp8bsGj+yggX2MS5GDOq7SZnTHI/DgmVpOlJWoBjxNgiwEAGksmmwjSC7Aq20j++1Xs9w7Diyjb+Ve3RVJXdTtvXtjpcd2uzjQjiWPRt5d46eH6l0lgVaa8EXHQlbYTVbOLDoXNW9CMUrcIFm0thrAkgjCJg/LONt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQUMb2/A2wOLpCOuRsVyWiFTANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ASgBOAE0ATwBVAFIAQQBcAGQAYQBuAGkAZQBsAF8AagBhAG4A5wBhAG4AdABpMB4XDTE4MDIwMTE3MDcyOFoXDTE5MDIwMTIzMDcyOFowOTE3MDUGA1UEAx4uAEoATgBNAE8AVQBSAEEAXABkAGEAbgBpAGUAbABfAGoAYQBuAOcAYQBuAHQAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyJvRft/baJp8bsGj+yggX2MS5GDOq7SZnTHI/DgmVpOlJWoBjxNgiwEAGksmmwjSC7Aq20j++1Xs9w7Diyjb+Ve3RVJXdTtvXtjpcd2uzjQjiWPRt5d46eH6l0lgVaa8EXHQlbYTVbOLDoXNW9CMUrcIFm0thrAkgjCJg/LONt0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAbjfzsBMq2HJc9Hr0dXJw3El5ujtM5SS6mjX2YSRPt0KELw9ubLp2W95a97sDLxqyxA5HF1bmeXmVMm3KTsy/4HYlQlNf84CxfDGDafIrjmCqlCXq8Dpee49IRsXUiqV2p0FqqIU6i6CuZIjWHfz5bsCggWO8Htdl0887etekIrg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
